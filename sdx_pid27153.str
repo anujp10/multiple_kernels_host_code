@@ -1,0 +1,91 @@
+/*
+
+Xilinx SDx v2019.1.op (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:48:04 MDT 2019
+
+Process ID (PID): 27153
+License: Customer
+
+Current time: 	Sun Dec 13 08:05:14 UTC 2020
+Time zone: 	Coordinated Universal Time (UTC)
+
+OS: CentOS Linux release 7.8.2003 (Core)
+OS Version: 3.10.0-1127.19.1.el7.x86_64
+OS Architecture: amd64
+Available processors (cores): 8
+
+Display: :10.0
+Screen size: 1920x1080
+Screen resolution (DPI): 98
+Available screens: 1
+Available disk space: 43 GB
+
+Java version: 	9.0.4 64-bit
+Java home: 	/opt/Xilinx/SDx/2019.1.op2552052/tps/lnx64/jre9.0.4
+Java executable location: 	/opt/Xilinx/SDx/2019.1.op2552052/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	64 MB
+Java maximum memory (-Xmx):	 4 GB
+
+Java library paths: /opt/Xilinx/SDx/2019.1.op2552052/lib/lnx64.o/Default:/opt/Xilinx/SDx/2019.1.op2552052/lib/lnx64.o:/opt/Xilinx/SDx/2019.1.op2552052/tps/lnx64/jre9.0.4/lib/:/opt/Xilinx/SDx/2019.1.op2552052/tps/lnx64/jre9.0.4/lib//server:/opt/Xilinx/SDK/2019.1.op2552052/lib/lnx64.o:/opt/Xilinx/SDx/2019.1.op2552052/lib/lnx64.o/Default:/opt/Xilinx/SDx/2019.1.op2552052/lib/lnx64.o:/opt/xilinx/xrt/lib::/opt/Xilinx/SDx/2019.1.op2552052/bin/../lnx64/tools/dot/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+
+Java class paths: /opt/Xilinx/SDx/2019.1.op2552052/eclipse/lnx64.o//plugins/org.eclipse.equinox.launcher_1.4.0.v20161219-1356.jar
+LD_LIBRARY_PATH: /opt/Xilinx/SDx
+
+User name: 	centos
+User home directory: /home/centos
+User working directory: /home/centos/Downloads/SDx-master-Hybrid_imp-Hybrid_PU_Specialized_Double_buffering/Hybrid_imp/Hybrid_PU_Specialized_Double_buffering
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /opt/Xilinx/SDx
+HDI_APPROOT: /opt/Xilinx/SDx/2019.1.op2552052
+RDI_DATADIR: /opt/Xilinx/SDx/2019.1.op2552052/data
+RDI_BINDIR: /opt/Xilinx/SDx/2019.1.op2552052/bin
+
+SDx preferences directory: /home/centos/.Xilinx/SDx/2019.1/
+SDx workspace directory: /workspace
+SDx workspace log file location: /workspace/.metadata/.log
+Engine tmp dir: 	./.Xil/sdx-27153-ip-172-31-78-233.ec2.internal
+
+Xilinx Environment Variables
+----------------------------
+XILINX_DSP: 
+XILINX_PLANAHEAD: /opt/Xilinx/SDx/2019.1.op2552052
+XILINX_SDK: /opt/Xilinx/SDK/2019.1.op2552052
+XILINX_SDX: /opt/Xilinx/SDx/2019.1.op2552052
+XILINX_VIVADO: /opt/Xilinx/Vivado/2019.1.op2552052
+XILINX_VIVADO_HLS: /opt/Xilinx/Vivado/2019.1.op2552052
+XILINX_XRT: /opt/xilinx/xrt
+_RDI_DONT_SET_XILINX_AS_PATH: True
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+selectTreeTable("binary_container_1", "overlap > Emulation-HW", "Assistant", "SDXAssistantView", "TreeViewer.AssistantContentProvider");
+selectTreeTable("System Estimate", "overlap > Emulation-HW > binary_container_1 > vgg16_new_top", EventType.DOUBLE_CLICK, "Assistant", "SDXAssistantView", "TreeViewer.AssistantContentProvider");
+selectProjectExplorer("overlap", "overlap > Emulation-HW > binary_container_1 > vgg16_new_top", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectToolBarButton("Run overlap-Default", "overlap", "WorkbenchWindow", "ToolItem.RUN_OVERLAP_DEFAULT");
+selectTreeTable("Emulation-HW", "overlap", "Console", "ConsoleView", "TreeViewer.AssistantContentProvider");
+selectProjectExplorer("host.cpp", "overlap > src", EventType.POPUP_TRIGGER_CLICK, "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Properties", "Project Explorer", "ProjectExplorer", "MenuItem.PROPERTIES");
+selectButton("Cancel", "Properties for host.cpp", "PropertyDialog", "Button.CANCEL");
+activateView("host.cpp", "overlap/src/host.cpp", "CEditor", "CTabItem.HOST_CPP");
+selectTreeTable("Application Timeline", "overlap > Emulation-HW > overlap-Default", EventType.DOUBLE_CLICK, "Assistant", "SDXAssistantView", "TreeViewer.AssistantContentProvider");
+selectTreeTable("System", "overlap", "Assistant", "SDXAssistantView", "TreeViewer.AssistantContentProvider");
+selectProjectExplorer("overlap", "overlap", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("File", "overlap", "WorkbenchWindow", "MenuItem.FILE");
+selectMenuItem("New", "overlap", "WorkbenchWindow", "MenuItem.NEW");
+selectMenuItem("SDx Application Project", "overlap", "WorkbenchWindow", "MenuItem.SDX_APPLICATION");
+selectButton("Next", "New SDx Application Project (Create a New SDx Application Project)", "ApplicationProjectWizard", "Button.NEXT");
+setTextField("host_overlap_single_layer", "New SDx Application Project (Platform)", "ApplicationProjectWizard", "Text.PROJECT_NAME");
+selectButton("Next", "New SDx Application Project (Platform)", "ApplicationProjectWizard", "Button.NEXT");
+selectButton("Finish", "New SDx Application Project (Templates)", "ApplicationProjectWizard", "Button.FINISH");
+selectProjectExplorer("src", "host_overlap_single_layer", EventType.POPUP_TRIGGER_CLICK, "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Import Sources", "Project Explorer", "ProjectExplorer", "MenuItem.IMPORT_SOURCES");
+selectButton("Browse", "Import Sources (File system)", "FileSystemImportWizard", "Button.BROWSE");
+selectTree("Hybrid_PU_Specialized_Double_buffering", "Import Sources (File system)", "FileSystemImportWizard", "Tree.HYBRID_PU_SPECIALIZED_DOUBLE_BUFFERING");
+selectButton("Select All", "Import Sources (File system)", "FileSystemImportWizard", "Button.SELECT_ALL");
+selectButton("Finish", "Import Sources (File system)", "FileSystemImportWizard", "Button.FINISH");
